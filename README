@@ -22,3 +22,11 @@ DEVELOPING
 What's in the "src-level-0" directory should be replaced when you upgrade.  And of course added when you install.
 
 What's in the "src-level-1" directory should NOT be replace when you upgrade.  But only added when you install.
+
+
+
+MORE ABOUT SKINNYMVC
+====================
+
+You can find out more about SkinnyMVC at its website: http://skinnymvc.com/
+
