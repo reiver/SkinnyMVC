@@ -1,0 +1,6 @@
+
+       This directory contains your module-action templates.
+
+       A template must be named after the associated action. 
+       For example, if the associated action is "list", then the file name of the template must be "list.php"
+    

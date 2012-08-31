@@ -1,0 +1,6 @@
+The Unit Tests use SimpleTest as their framework.  The files for it are contained in the "simpletest/" directory.
+
+Use the Helper Library in "SkinnyMvcTest.php" to help you test SkinnyMVC.
+
+Note that the "SkinnyMvcTest.php" Helper Library has a Unit Test for it!!!!  (It's obviously an important one.)
+Namely, it's "TestSkinnyMvcTest.php".

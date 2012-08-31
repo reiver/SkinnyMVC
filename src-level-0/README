@@ -1,0 +1,14 @@
+
+Please add the following settings to httpd.conf with the proper values filled out.
+
+<VirtualHost *:80>
+    ServerName   [your domain name]
+    ServerAdmin  [your email]
+    DocumentRoot [path to your project]/web
+    php_value include_path .:[path to your project]
+    <Directory "[path to your project]/web">
+     AllowOverride All
+     Allow from All
+    </Directory>
+</VirtualHost>
+    

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+mkdir TEMP-LATEST
+php build.php > TEMP-LATEST/skinnymvc.php
+cd TEMP-LATEST
+tar czvf latest.tar.gz skinnymvc.php
+mv latest.tar.gz /opt/skinnymvc/var/skinnymvc/web/skinnymvc.com/web/files/
+
+rm skinnymvc.php
+cd ..
+rmdir TEMP-LATEST
+
+

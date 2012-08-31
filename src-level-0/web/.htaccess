@@ -1,0 +1,16 @@
+Options +FollowSymLinks +ExecCGI
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteRule ^(dev.php)/([^/\.]+)/?([^/\.]+)?/?$ dev.php?__module=$2&__action=$3&%{QUERY_STRING}  [L]
+
+  RewriteCond %{DOCUMENT_ROOT}/$0 !-f
+  RewriteCond %{DOCUMENT_ROOT}/$0 !-d
+  RewriteCond %{DOCUMENT_ROOT}/$0 !-l
+  RewriteRule ^(index.php/)?([^/\.]+)/?([^/\.]+)?/?$ index.php?__module=$2&__action=$3&%{QUERY_STRING}  [L]
+
+
+</IfModule>
+
+
