@@ -1,3 +1,24 @@
+SkinnyMVC README
+================
+
+This is the build system for SkinnyMVC.
+
+When developers get SkinnyMVC, they receive it as one PHP file: "skinnymvc.php". That one file is created by this build system.
+
+
+
+BUILDING
+========
+
+Building the "skinnymvc.php" is done with the following command:
+
+    php build.php > skinnymvc.php
+
+
+
+DEVELOPING
+==========
+
 What's in the "src-level-0" directory should be replaced when you upgrade.  And of course added when you install.
 
 What's in the "src-level-1" directory should NOT be replace when you upgrade.  But only added when you install.
